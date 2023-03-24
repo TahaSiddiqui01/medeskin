@@ -24,7 +24,7 @@ export default function Product() {
           toggleIcon ? "overflow-x-hidden toggle-icon" : "overflow-x-hidden"
         }
       >
-        <section className="flex md:min-h-screen h-[70vh] w-full banner-section">
+        <section className="flex md:min-h-screen h-[70vh] res-height w-full banner-section">
           <div className="tablet:w-[80px] w-[50px]  md:h-[100vh] h-[70vh] pb-14 flex flex-col justify-between items-center bg-lightgray">
             <div className="w-[80px] h-[80px] mycenter bg-primary">
               <div>
@@ -36,7 +36,7 @@ export default function Product() {
                 />
               </div>
             </div>
-            <div className="flex flex-col md:space-y-20 space-y-10 text-black flex-1 justify-center items-center">
+            <div className="flex res-waste flex-col md:space-y-20 space-y-10 text-black flex-1 justify-center items-center">
               {/* <div>
               <FaFacebookF />
             </div> */}
@@ -54,7 +54,7 @@ export default function Product() {
                 </a>
               </div>
             </div>
-            <div className="text-black">
+            <div className="text-black res-waste">
               <div className="flex flex-col items-center">
                 <a href="#section-2">
                   <div className="flex flex-col">
@@ -213,9 +213,9 @@ export default function Product() {
                     seven different cosmetic issues, and new classifications are
                     all set to be rolled out soon.
                   </p>
-                  <div className="flex sm:flex-row flex-col justify-center sm:justify-start sm:space-x-2 tablet:space-x-4 lg:space-x-6 items-center">
-                    <img src="/img/app-store.png" alt="" />
-                    <img src="/img/play-store.png" alt="" />
+                  <div className="flex store-img-div sm:flex-row flex-col justify-center sm:justify-start sm:space-x-2 tablet:space-x-4 lg:space-x-6 items-center">
+                    <img className="store-img" src="/img/app-store.png" alt="" />
+                    <img className="store-img" src="/img/play-store.png" alt="" />
                   </div>
                 </div>
                 <div className="md:w-1/2 w-full  justify-center absolute  handshake-div">

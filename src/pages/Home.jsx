@@ -17,6 +17,7 @@ import LatestBlogs from "./../components/LatestBlogs";
 import DocumentMeta from "react-document-meta";
 import axios from "axios";
 import "./pages.css";
+import MobileNav from "../components/MobileNav";
 
 export default function Home() {
   const [toggleIcon, setToggleIcon] = useState(false);
@@ -77,8 +78,8 @@ export default function Home() {
           toggleIcon ? "overflow-x-hidden toggle-icon" : "overflow-x-hidden"
         }
       >
-        <section className="flex md:min-h-screen h-[70vh] w-full banner-section home-page">
-          <div className="tablet:w-[80px] w-[50px]  md:h-[100vh] h-[70vh] pb-14 flex flex-col justify-between items-center bg-lightgray">
+        <section className="flex desktop-nav md:min-h-screen h-[70vh] w-full banner-section home-page">
+          <div className="tablet:w-[80px] w-[50px]  md:h-[100vh] h-[70vh] pb-14 flex flex-col justify-between items-center bg-lightgray ">
             <div className="w-[80px] h-[80px] mycenter bg-primary">
               <div>
                 <HiMenuAlt1
@@ -124,6 +125,8 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+
           <div className="flex-1">
             <div className="flex items-center space-x-2 absolute left-[50px] tablet:left-[150px] top-0 z-50 md:p-4 p-0">
               <NavLink to={"/"}>
@@ -302,6 +305,10 @@ export default function Home() {
             </NavLink>
           </div>
         </section>
+
+        <div className="mobile-nav">
+          <MobileNav />
+        </div>
 
         <section
           className="bg-lightgray md:py-[100px] py-[50px] lg:py-[150px] 4xl:py-[300px]"

@@ -1,0 +1,9 @@
+TODO: The banner on the homepage is still not visible. Any chance of fixing that?
+
+TODO:  On the product page, the final screenshot appears without a phone silhoutte. Was the image with the phone not available? I can send it if it is, or if it's an error then that needs to be fixed.
+
+TODO: On the product page, can the images (of the phones) be larger/ occupy the empyty space better? They seem much smaller than the space provided -- provided a screenshot from the figma file to show what I mean
+
+TODO: On the provided figma file, the header on all the pages is a white border with the logo, and then the page begins (shared in the screenshot attached) which isn't visible on the implementation
+
+TODO: The margins seem very large on the sides on all pages that have text. Can that be adjusted to be a little smaller? It seems it's very "pressed" in the center

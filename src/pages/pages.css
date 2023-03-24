@@ -2,6 +2,10 @@
   border-bottom: 1px solid #c4c4c4 !important;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 @media screen and (max-width: 992px) {
   .handshake-img {
     position: static !important;
@@ -18,7 +22,6 @@
   .bluegreen-parent {
     flex-direction: column !important;
   }
-
 
   .bluegreen-div {
     margin: 38px 4px !important;
@@ -124,15 +127,19 @@
     flex-direction: column;
     gap: 10px;
   }
-  .ethics-card{
+  .ethics-card {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
     flex-direction: column-reverse;
   }
 
-  .ethics-card img{
+  .ethics-card img {
     margin: 12px 2px;
+  }
+
+  .store-img {
+    margin: 8px;
   }
 }
 
@@ -149,6 +156,21 @@
 
   .partners img {
     margin: 0px !important;
+  }
+
+  .mobile-nav {
+    display: block !important;
+  }
+  .desktop-nav {
+    display: none;
+  }
+/* 
+  .res-waste {
+    display: none;
+  } */
+
+  .res-height {
+    /* height: 0px !important; */
   }
 }
 
