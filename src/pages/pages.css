@@ -1,0 +1,173 @@
+.form-input {
+  border-bottom: 1px solid #c4c4c4 !important;
+}
+
+@media screen and (max-width: 992px) {
+  .handshake-img {
+    position: static !important;
+    width: 250px;
+  }
+
+  .handshake-div {
+    position: static !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bluegreen-parent {
+    flex-direction: column !important;
+  }
+
+
+  .bluegreen-div {
+    margin: 38px 4px !important;
+  }
+
+  .download-parent {
+    flex-direction: column-reverse !important;
+    gap: 100px;
+  }
+
+  .download-box {
+    justify-content: center;
+  }
+
+  .footer-parent {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .mc_embed_signup {
+    margin: auto !important;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .android-download {
+    width: 120px;
+    margin: 12px !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer-navigation {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skin-care {
+    display: block !important;
+  }
+  .blog-last-div {
+    padding: 0px !important;
+  }
+
+  .skin-care-tag {
+    color: #0064aa;
+    font-size: 12px;
+    margin: 1.5rem 0px;
+    font-weight: bold;
+  }
+  .skin-care-heading {
+    color: black;
+    font-size: 18px;
+    margin: 1.5rem 0px;
+    font-weight: bold;
+  }
+  .skin-care-detail {
+    font-weight: 400;
+    margin: 1.5rem 0px;
+  }
+  .partners {
+    justify-content: center;
+  }
+
+  .partner-info-heading {
+    font-size: 22px;
+  }
+
+  #mc_embed_signup {
+    margin: auto !important;
+  }
+
+  .parent-home-div {
+    display: none !important;
+  }
+
+  .blog-category-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .blog-category-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 160px;
+    /* justify-self: center; */
+    align-self: center;
+    justify-items: center;
+    gap: 10px;
+    margin: 0px !important;
+  }
+
+  .blog-category-card-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .ethics-card{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column-reverse;
+  }
+
+  .ethics-card img{
+    margin: 12px 2px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 430px) {
+  .partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .partners img {
+    margin: 0px !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .vs-btn {
+    width: 100%;
+    margin: 8px;
+    box-sizing: border-box;
+  }
+  .blog-category-parent {
+    gap: 10px;
+  }
+  .blog-category-card {
+    padding: 4px !important;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .toggle-menu {
+    left: -120%;
+  }
+}
