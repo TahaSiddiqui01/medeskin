@@ -1,4 +1,14 @@
-.mobile-sidebar{
-    height: 0px !important;
-    display: block;
+.mobile-sidebar {
+  height: 0px !important;
+  display: block;
 }
+
+/* @media screen and (max-width: 650px) {
+  .swiper {
+    height: 383px !important;
+  }
+
+  .res-banner {
+    object-fit: unset !important;
+  }
+} */

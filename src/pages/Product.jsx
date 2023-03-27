@@ -25,7 +25,7 @@ export default function Product() {
         }
       >
         <section className="flex md:min-h-screen h-[70vh] res-height w-full banner-section">
-          <div className="tablet:w-[80px] w-[50px]  md:h-[100vh] h-[70vh] pb-14 flex flex-col justify-between items-center bg-lightgray">
+          <div className="tablet:w-[80px] w-[50px]  md:h-[100vh] h-[70vh] pb-14 flex flex-col justify-between items-center bg-lightgray res-sidebar">
             <div className="w-[80px] h-[80px] mycenter bg-primary">
               <div>
                 <HiMenuAlt1
@@ -36,7 +36,7 @@ export default function Product() {
                 />
               </div>
             </div>
-            <div className="flex res-waste flex-col md:space-y-20 space-y-10 text-black flex-1 justify-center items-center">
+            <div className="flex res-waste flex-col md:space-y-20 space-y-10 text-black flex-1 justify-center items-center res-account">
               {/* <div>
               <FaFacebookF />
             </div> */}
@@ -72,10 +72,23 @@ export default function Product() {
             </div>
           </div>
           <div className="flex-1">
+            <div className="w-[80px] h-[80px] mycenter bg-primary res-hide">
+              <div
+                style={{ height: "100%" }}
+                className="d-flex justify-content-center align-items-center"
+              >
+                <HiMenuAlt1
+                  className="text-[25px] text-white cursor-pointer"
+                  onClick={() => {
+                    setToggleIcon(true);
+                  }}
+                />
+              </div>
+            </div>
             <div className="flex items-center space-x-2 absolute left-[50px] tablet:left-[150px] top-0 z-50 md:p-4 p-0">
               <NavLink to={"/"}>
                 <img
-                  className="tablet:w-[150px] w-[100px] pl-4 pt-2 sm:pl-0 sm:pt-0"
+                  className="tablet:w-[150px] mx-1 w-[100px] pl-4 pt-2 sm:pl-0 sm:pt-0 res-logo"
                   src="/img/logo.svg"
                   alt="logo"
                 />
@@ -84,7 +97,7 @@ export default function Product() {
             <div className="flex tablet:h-[80px] h-[45px]  absolute top-0 right-0 z-50">
               <NavLink
                 to={"/login"}
-                className="h-full tablet:w-[170px] w-[100px] mycenter bg-white text-black"
+                className="h-full tablet:w-[170px] w-[100px] mycenter bg-white res-anchor text-black"
               >
                 Login
               </NavLink>
@@ -191,11 +204,11 @@ export default function Product() {
         </section>
 
         <section
-          className="bg-lightgray  md:py-[100px] py-[50px] lg:py-[100px] 4xl:py-[250px]"
+          className="bg-lightgray res-margin  md:py-[100px] py-[50px] lg:py-[100px] 4xl:py-[250px]"
           id="section-2"
         >
-          <div className="flex bg-primary  w-full  md:pt-[1%] md:pb-[1%] lg:pt-[4%] lg:pb-[4%]  py-[150px] text-white px-5">
-            <div className="container">
+          <div className="flex bg-primary  w-full  md:pt-[1%] md:pb-[1%] lg:pt-[4%] lg:pb-[4%]  py-[150px] text-white px-5 res-container-parent">
+            <div className="container res-container">
               <div className="flex items-center md:flex-row flex-col download-parent">
                 <div className="max-w-[600px] 4xl:max-w-[800px] flex flex-col  md:space-y-2 lg:space-y-6 md:w-1/2 w-full">
                   <h3 className="4xl:text-[40px] lg:text-[35px] md:text-[20px] tablet:text-[30px] text-[25px] leading-[55px] font-semibold">
@@ -214,8 +227,16 @@ export default function Product() {
                     all set to be rolled out soon.
                   </p>
                   <div className="flex store-img-div sm:flex-row flex-col justify-center sm:justify-start sm:space-x-2 tablet:space-x-4 lg:space-x-6 items-center">
-                    <img className="store-img" src="/img/app-store.png" alt="" />
-                    <img className="store-img" src="/img/play-store.png" alt="" />
+                    <img
+                      className="store-img"
+                      src="/img/app-store.png"
+                      alt=""
+                    />
+                    <img
+                      className="store-img"
+                      src="/img/play-store.png"
+                      alt=""
+                    />
                   </div>
                 </div>
                 <div className="md:w-1/2 w-full  justify-center absolute  handshake-div">
@@ -231,8 +252,8 @@ export default function Product() {
         </section>
 
         <section className="bg-lightgray md:py-[100px] py-[50px] lg:py-[150px] 4xl:py-[250px]">
-          <div className="flex bg-primary  w-full lg:pt-[7%] lg:pb-[7%] md:pt-[5%] md:pb-[5%] py-[150px] 4xl:py-[150px] text-white px-5">
-            <div className="container">
+          <div className="flex bg-primary  w-full lg:pt-[7%] lg:pb-[7%] md:pt-[5%] md:pb-[5%] py-[150px] 4xl:py-[150px] text-white px-5 res-container-parent">
+            <div className="container res-container">
               <div className="flex items-center md:flex-row flex-col  bluegreen-parent">
                 <div className="md:w-1/2 w-full flex justify-center absolute handshake-div">
                   <img
@@ -259,8 +280,16 @@ export default function Product() {
                     appointment – the choice is yours.
                   </p>
                   <div className="flex sm:flex-row flex-col justify-center sm:justify-start sm:space-x-2 tablet:space-x-4 lg:space-x-6 items-center">
-                    <img src="/img/app-store.png" alt="" />
-                    <img src="/img/play-store.png" alt="" />
+                    <img
+                      className="store-img"
+                      src="/img/app-store.png"
+                      alt=""
+                    />
+                    <img
+                      className="store-img"
+                      src="/img/play-store.png"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>
@@ -269,8 +298,8 @@ export default function Product() {
         </section>
 
         <section className="bg-lightgray md:py-[100px] py-[50px] lg:py-[150px] 4xl:py-[250px]">
-          <div className="flex bg-primary  w-full md:pt-[1%] md:pb-[1%] lg:pt-[5%] lg:pb-[5%] py-[150px] 4xl:py-[170px] text-white px-5">
-            <div className="container">
+          <div className="flex bg-primary  w-full md:pt-[1%] md:pb-[1%] lg:pt-[5%] lg:pb-[5%] py-[150px] 4xl:py-[170px] text-white px-5 res-container-parent">
+            <div className="container res-container">
               <div className="flex items-center md:flex-row flex-col download-parent">
                 <div className="max-w-[600px] 4xl:max-w-[800px] flex flex-col  space-y-6 md:w-1/2 w-full">
                   <h3 className="4xl:text-[50px] lg:text-[30px] md:text-[20px] tablet:text-[30px] text-[25px]  font-semibold">
@@ -287,14 +316,22 @@ export default function Product() {
                     your phone and the Medeskin AI mobile app – nothing else.
                   </p>
                   <div className="flex sm:flex-row flex-col justify-center sm:justify-start sm:space-x-2 tablet:space-x-4 lg:space-x-6 items-center">
-                    <img src="/img/app-store.png" alt="" />
-                    <img src="/img/play-store.png" alt="" />
+                    <img
+                      className="store-img"
+                      src="/img/app-store.png"
+                      alt=""
+                    />
+                    <img
+                      className="store-img"
+                      src="/img/play-store.png"
+                      alt=""
+                    />
                   </div>
                 </div>
                 <div className="md:w-1/2 w-full flex justify-center handshake-div absolute">
                   <img
-                    className="left-[90%] handshake-img  w-[43%] relative lg:pb-[1%] md:pt-[5%]"
-                    src="/img/FinalImage2.jpg "
+                    className="left-[90%] handshake2-img  w-[54%] relative lg:pb-[1%] md:pt-[5%]"
+                    src="/img/res-product.png"
                     alt=""
                   />
                 </div>

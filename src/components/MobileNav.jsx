@@ -186,7 +186,7 @@ function MobileNav() {
                     <div className="slide-1 w-full relative">
                       <img
                         src={blog.image}
-                        className="w-full md:h-[100vh] h-[70vh] object-cover "
+                        className="w-full md:h-[100vh] h-[50vh]  res-banner "
                         alt=""
                       />
                     </div>

@@ -23,7 +23,7 @@ function Ethics() {
         <title>Ethics and Safety | Medeskin AI</title>
       </Helmet> */}
         <section className="flex md:min-h-screen h-[70vh] w-full banner-section">
-          <div className="tablet:w-[80px] w-[50px]  md:h-[100vh] h-[70vh] pb-14 flex flex-col justify-between items-center bg-lightgray">
+          <div className="tablet:w-[80px] w-[50px] res-sidebar  md:h-[100vh] h-[70vh] pb-14 flex flex-col justify-between items-center bg-lightgray">
             <div className="w-[80px] h-[80px] mycenter bg-primary">
               <div>
                 <HiMenuAlt1
@@ -34,7 +34,7 @@ function Ethics() {
                 />
               </div>
             </div>
-            <div className="flex flex-col md:space-y-20 space-y-10 text-black flex-1 justify-center items-center">
+            <div className="flex res-account flex-col md:space-y-20 space-y-10 text-black flex-1 justify-center items-center">
               {/* <div>
               <FaFacebookF />
             </div> */}
@@ -52,7 +52,7 @@ function Ethics() {
                 </a>
               </div>
             </div>
-            <div className="text-black">
+            <div className="text-black res-scroll">
               <div className="flex flex-col items-center">
                 <a href="#section-2">
                   <div className="flex flex-col">
@@ -70,10 +70,23 @@ function Ethics() {
             </div>
           </div>
           <div className="flex-1">
+            <div className="w-[80px] h-[80px] mycenter bg-primary res-hide">
+              <div
+                style={{ height: "100%" }}
+                className="d-flex justify-content-center align-items-center"
+              >
+                <HiMenuAlt1
+                  className="text-[25px] text-white cursor-pointer"
+                  onClick={() => {
+                    setToggleIcon(true);
+                  }}
+                />
+              </div>
+            </div>
             <div className="flex items-center space-x-2 absolute left-[50px] tablet:left-[150px] top-0 z-50 md:p-4 p-0">
               <NavLink to={"/"}>
                 <img
-                  className="tablet:w-[150px] w-[100px] pl-4 pt-2 sm:pl-0 sm:pt-0"
+                  className="tablet:w-[150px] mx-1 w-[100px] pl-4 pt-2 sm:pl-0 sm:pt-0 res-logo"
                   src="/img/logo.svg"
                   alt="logo"
                 />
@@ -82,7 +95,7 @@ function Ethics() {
             <div className="flex tablet:h-[80px] h-[45px]  absolute top-0 right-0 z-50">
               <NavLink
                 to={"/login"}
-                className="h-full tablet:w-[170px] w-[100px] mycenter bg-white text-black"
+                className="h-full tablet:w-[170px] w-[100px] mycenter res-anchor text-black"
               >
                 Login
               </NavLink>
@@ -188,7 +201,7 @@ function Ethics() {
         </section>
 
         <section
-          className="text-gray-600 body-font overflow-hidden"
+          className="text-gray-600 res-margin body-font overflow-hidden"
           id="section-2"
         >
           <div className="container px-5 py-6 md:py-16 mx-auto">

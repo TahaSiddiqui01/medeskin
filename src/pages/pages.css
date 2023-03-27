@@ -6,10 +6,20 @@
   display: none;
 }
 
+.res-hide {
+  display: none;
+}
+
 @media screen and (max-width: 992px) {
   .handshake-img {
     position: static !important;
-    width: 250px;
+    width: 250px !important;
+    min-width: 250px !important;
+  }
+  .handshake2-img {
+    position: static !important;
+    width: 385px;
+    min-width: 270px !important;
   }
 
   .handshake-div {
@@ -53,11 +63,52 @@
     width: 120px;
     margin: 12px !important;
   }
+
+  .res-account {
+    display: none !important;
+  }
+
+  .res-scroll {
+    display: none !important;
+  }
+
+  .res-sidebar {
+    display: none;
+  }
+
+  .res-hide {
+    display: block;
+  }
+
+  .res-logo {
+    margin: 1rem 1.5rem !important;
+  }
+
+  .res-anchor {
+    background-color: transparent !important;
+    margin-top: 1rem !important;
+  }
+
+  .res-margin {
+    margin-top: 6rem !important;
+  }
 }
 
 @media screen and (max-width: 650px) {
   .footer-navigation {
     padding: 0px;
+  }
+
+  .res-container {
+    margin: 0px;
+    text-align: center;
+  }
+
+  .res-container-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px !important;
   }
 }
 
@@ -164,7 +215,7 @@
   .desktop-nav {
     display: none;
   }
-/* 
+  /* 
   .res-waste {
     display: none;
   } */
