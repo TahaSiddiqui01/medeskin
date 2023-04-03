@@ -201,7 +201,7 @@ function Ethics() {
         </section>
 
         <section
-          className="text-gray-600 res-margin body-font overflow-hidden"
+          className="text-gray-600 mt-5 res-margin body-font overflow-hidden"
           id="section-2"
         >
           <div className="container px-5 py-6 md:py-16 mx-auto">
@@ -229,14 +229,8 @@ function Ethics() {
 
         <section className="text-gray-600 body-font overflow-hidden">
           <div className="container px-5 py-6 md:py-16 mx-auto">
-            <div className="grid grid-col-1 md:grid-cols-2 gap-x-8 items-center ethics-card">
-              <img
-                src="/img/pexels-pixabay-48148.png"
-                alt="pen"
-                className="w-full max-h-[400px] max-w-[400px]  rounded-xl order-2 lg:order-1"
-              />
-              {/* <img alt="ecommerce" className="order-2 lg:order-1 pr-10 w-full lg:h-auto h-64 max-h-[400px] rounded-xl" src="/img/pen.png" /> */}
-              <div className="order-1 lg:order-2 w-full lg: lg:py-6 mb-6 lg:mb-0">
+            <div className="flex justify-content-between align-items-center flex-wrap-md flex-row-reverse ethics-card ethics-card-2">
+              <div className="order-1 mx-3 w-[50%] full-width lg:order-2  lg: lg:py-6 mb-6 lg:mb-0">
                 <h1 className="text-black lg:text-[40px] tablet:text-[30px] text-[24px] title-font font-bold mb-4">
                   Law Compliance
                 </h1>
@@ -248,6 +242,13 @@ function Ethics() {
                   employees, partners, and the government.
                 </p>
               </div>
+              <img
+                src="/img/pexels-pixabay-48148.png"
+                alt="pen"
+                className="w-full max-h-[400px] max-w-[400px]  rounded-xl order-2 lg:order-1"
+              />
+
+              {/* <img alt="ecommerce" className="order-2 lg:order-1 pr-10 w-full lg:h-auto h-64 max-h-[400px] rounded-xl" src="/img/pen.png" /> */}
             </div>
           </div>
         </section>

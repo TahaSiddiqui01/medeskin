@@ -126,7 +126,6 @@ export default function Home() {
             </div>
           </div>
 
-
           <div className="flex-1">
             <div className="flex items-center space-x-2 absolute left-[50px] tablet:left-[150px] top-0 z-50 md:p-4 p-0">
               <NavLink to={"/"}>
@@ -314,7 +313,10 @@ export default function Home() {
           className="bg-lightgray md:py-[100px] py-[50px] lg:py-[150px] 4xl:py-[300px]"
           id="section-2"
         >
-          <div className="flex bg-primary w-full xxl:py-[150px] 4xl:py-[180px] pt-[3%] pb-[3%] py-[150px] text-white  px-5">
+          <div
+            style={{ backgroundColor: "#0976b7" }}
+            className="flex w-full xxl:py-[150px] 4xl:py-[180px] pt-[3%] pb-[3%] py-[150px] text-white  px-5"
+          >
             <div className="container">
               <div className="flex items-center md:flex-row flex-col download-parent">
                 <div className="flex flex-col space-y-6 md:w-1/2 w-full">
@@ -376,7 +378,7 @@ export default function Home() {
             </h2>
           </div>
           <div
-            className="lg:px-20 mx-10 flex partners "
+            className="lg:px-20 mx-10 flex partners justify-content-center align-items-center "
             style={{ alignItems: "center" }}
           >
             {/* <Swiper

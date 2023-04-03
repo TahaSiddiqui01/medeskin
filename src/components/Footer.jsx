@@ -52,108 +52,12 @@ export default function Footer() {
   };
   return (
     <div className="mt-5">
-      <footer className="text-white body-font bg-primary">
+      <footer
+        style={{ backgroundColor: "#0976b7" }}
+        className="text-white body-font "
+      >
         <div className="px-5 py-2 w-full mx-auto flex md:items-center lg:items-start  flex-wrap ">
           <div className=" md:flex flex-wrap lg:flex-nowrap sm:gap-x-6 lg:px-12 sm:justify-center lg:justify-start md:gap-x-6 gap-x-1 w-full gap-y-5  md:text-left grid grid-cols-1 sm:flex items-center footer-parent py-5">
-            <div className="md:w-[48%] w-full ">
-              <div className="md:pr-4 pr-0">
-                <img className="my-4" src="/img/logo.svg" alt="logo" />
-                <p className="leading-[29px] mt-8">
-                  Medeskin AI is a free AI powered mobile app revolutionizing
-                  skin health and care by offering quick cosmetic issue
-                  classification and access to leading skin health
-                  professionals.
-                </p>
-                <div className="flex items-center mt-4 md:justify-center justify-start space-x-2">
-                  {/* <a href='https://facebook.com' target='blank' className='w-10 h-10 scale-[0.8] rounded-full mycenter bg-white'><FaFacebookF className='text-[24px] text-primary' /></a> */}
-                  <a
-                    href="https://twitter.com"
-                    target="blank"
-                    className="w-10 h-10 scale-[0.8] rounded-full mycenter bg-white"
-                  >
-                    {" "}
-                    <FaTwitter className="text-[24px] text-primary" />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/company/medeskin-ai"
-                    target="blank"
-                    className="w-10 h-10 scale-[0.8] rounded-full mycenter bg-white"
-                  >
-                    {" "}
-                    <FaLinkedinIn className="text-[24px] text-primary" />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/medeskin_ai/"
-                    target="blank"
-                    className="w-10 h-10 scale-[0.8] rounded-full mycenter bg-white"
-                  >
-                    {" "}
-                    <FaInstagram className="text-[24px] text-primary" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* <div className="md:w-[48%] w-full ">
-              <div className='md:pr- pr-0 px-20 py-2 footer-navigation'>
-              <h5 className="text-white text-[13px] leading-7 4xl:leading-[30px] 4xl:text-[40px] tablet:text-[20px] md:text-[20px] lg:text-[25px] lg:leading-[60px] md:leading-[50px] tablet:leading-[45px] font-semibold">
-                Company<br />
-                </h5>
-                <NavLink to={'/'} className="menu block px-6 text-white py-2">Home</NavLink>
-                <NavLink to={'/about'} className="menu block px-6 text-white py-2">About</NavLink>
-                <NavLink to={'/product'} className="menu block px-6 text-white py-2">Product</NavLink>
-                <NavLink to={'/blogs'} className="menu block px-6 text-white py-2">Blogs</NavLink>
-                <NavLink to={'/ethics'} className="menu block px-6 text-white py-2">Ethics</NavLink>
-                
-              </div>
-            </div> */}
-            {/* <div className="lg:w-[15%] w-full  col-span-1 sm:w-[45%]  lg:order-2 sm:order-3">
-              <h2 className="title-font  text-white tracking-widest text-sm mb-10 text-[22px] font-medium mt-2">Legal</h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Term & Conditions</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Refund Policy</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Privacy Policy</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Term & Conditions</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Refund Policy</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Privacy Policy</NavLink>
-                </li>
-
-
-              </nav>
-            </div>
-            <div className="lg:w-[15%] w-full  col-span-1 sm:w-[45%] lg:order-3 sm:order-4 ">
-              <h2 className="title-font  text-white-900 tracking-widest text-sm mb-10 text-[22px] font-medium mt-2">Other</h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Contact Us</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">FAQ</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Honor Code</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Contact Us</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">FAQ</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Honor Code</NavLink>
-                </li>
-              </nav>
-            </div> */}
             <div className="md:w-[48%] w-full flex md:justify-end">
               <div id="mc_embed_signup">
                 <form
@@ -270,6 +174,105 @@ export default function Footer() {
                 ""
               )}
             </div>
+            <div className="md:w-[48%] w-full ">
+              <div className="md:pr-4 pr-0">
+                <img className="my-4" src="/img/logo.svg" alt="logo" />
+                <p className="leading-[29px] mt-8">
+                  Medeskin AI is a free AI powered mobile app revolutionizing
+                  skin health and care by offering quick cosmetic issue
+                  classification and access to leading skin health
+                  professionals.
+                </p>
+                <div className="flex items-center mt-4 md:justify-center justify-start space-x-2">
+                  {/* <a href='https://facebook.com' target='blank' className='w-10 h-10 scale-[0.8] rounded-full mycenter bg-white'><FaFacebookF className='text-[24px] text-primary' /></a> */}
+                  <a
+                    href="https://twitter.com"
+                    target="blank"
+                    className="w-10 h-10 scale-[0.8] rounded-full mycenter bg-white"
+                  >
+                    {" "}
+                    <FaTwitter className="text-[24px] text-primary" />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/medeskin-ai"
+                    target="blank"
+                    className="w-10 h-10 scale-[0.8] rounded-full mycenter bg-white"
+                  >
+                    {" "}
+                    <FaLinkedinIn className="text-[24px] text-primary" />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/medeskin_ai/"
+                    target="blank"
+                    className="w-10 h-10 scale-[0.8] rounded-full mycenter bg-white"
+                  >
+                    {" "}
+                    <FaInstagram className="text-[24px] text-primary" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* <div className="md:w-[48%] w-full ">
+              <div className='md:pr- pr-0 px-20 py-2 footer-navigation'>
+              <h5 className="text-white text-[13px] leading-7 4xl:leading-[30px] 4xl:text-[40px] tablet:text-[20px] md:text-[20px] lg:text-[25px] lg:leading-[60px] md:leading-[50px] tablet:leading-[45px] font-semibold">
+                Company<br />
+                </h5>
+                <NavLink to={'/'} className="menu block px-6 text-white py-2">Home</NavLink>
+                <NavLink to={'/about'} className="menu block px-6 text-white py-2">About</NavLink>
+                <NavLink to={'/product'} className="menu block px-6 text-white py-2">Product</NavLink>
+                <NavLink to={'/blogs'} className="menu block px-6 text-white py-2">Blogs</NavLink>
+                <NavLink to={'/ethics'} className="menu block px-6 text-white py-2">Ethics</NavLink>
+                
+              </div>
+            </div> */}
+            {/* <div className="lg:w-[15%] w-full  col-span-1 sm:w-[45%]  lg:order-2 sm:order-3">
+              <h2 className="title-font  text-white tracking-widest text-sm mb-10 text-[22px] font-medium mt-2">Legal</h2>
+              <nav className="list-none mb-10">
+                <li>
+                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Term & Conditions</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Refund Policy</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Privacy Policy</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Term & Conditions</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Refund Policy</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Privacy Policy</NavLink>
+                </li>
+
+
+              </nav>
+            </div>
+            <div className="lg:w-[15%] w-full  col-span-1 sm:w-[45%] lg:order-3 sm:order-4 ">
+              <h2 className="title-font  text-white-900 tracking-widest text-sm mb-10 text-[22px] font-medium mt-2">Other</h2>
+              <nav className="list-none mb-10">
+                <li>
+                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Contact Us</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">FAQ</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Honor Code</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Contact Us</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">FAQ</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="text-white  hover:text-white-800 text-[16px] mb-3 block">Honor Code</NavLink>
+                </li>
+              </nav>
+            </div> */}
           </div>
         </div>
         <div className="container-fluid mx-auto py-4 px-5  flex flex-wrap justify-center bg-white flex-col sm:flex-row">

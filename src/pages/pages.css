@@ -10,7 +10,67 @@
   display: none;
 }
 
+.handshake-img-2 {
+  margin-right: 33rem;
+}
+
+.handshake-img-3 {
+  left: 94%;
+}
+
+.fixed-img-size {
+  width: 350px;
+}
+
+@media screen and (max-width: 1600px) {
+  .fixed-img-size {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .fixed-img-size {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .fixed-img-size {
+    width: 250px;
+  }
+
+  .handshake-img-2 {
+    margin-right: 29rem;
+  }
+}
+
+@media screen and (max-width: 1056px) {
+  .full-width {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 992px) {
+  .handshake-img-2 {
+    margin: 30px 0px;
+  }
+  
+  .handshake-img-2{
+    margin: ;
+  }
+
+  .ethics-card-2 {
+    flex-direction: column !important;
+  }
+
+  .flex-wrap-md {
+    flex-wrap: wrap;
+  }
+
+  .fixed-img-size {
+    width: 350px !important;
+  }
+
   .handshake-img {
     position: static !important;
     width: 250px !important;
@@ -55,6 +115,12 @@
 
   .mc_embed_signup {
     margin: auto !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ethics-card-2 {
+    flex-direction: column-reverse !important;
   }
 }
 
@@ -236,6 +302,11 @@
   }
   .blog-category-card {
     padding: 4px !important;
+  }
+
+  .fixed-img-size {
+    width: 220px !important;
+    min-width: 193px !important;
   }
 }
 

@@ -207,7 +207,10 @@ export default function Product() {
           className="bg-lightgray res-margin  md:py-[100px] py-[50px] lg:py-[100px] 4xl:py-[250px]"
           id="section-2"
         >
-          <div className="flex bg-primary  w-full  md:pt-[1%] md:pb-[1%] lg:pt-[4%] lg:pb-[4%]  py-[150px] text-white px-5 res-container-parent">
+          <div
+            style={{ backgroundColor: "#0976b7" }}
+            className="flex   w-full  md:pt-[1%] md:pb-[1%] lg:pt-[4%] lg:pb-[4%]  py-[150px] text-white px-5 res-container-parent"
+          >
             <div className="container res-container">
               <div className="flex items-center md:flex-row flex-col download-parent">
                 <div className="max-w-[600px] 4xl:max-w-[800px] flex flex-col  md:space-y-2 lg:space-y-6 md:w-1/2 w-full">
@@ -241,7 +244,7 @@ export default function Product() {
                 </div>
                 <div className="md:w-1/2 w-full  justify-center absolute  handshake-div">
                   <img
-                    className="left-[90%] w-[43%] handshake-img  relative lg:pb-[1%] lg:pt-[6%] md:pt-[5%] left-[90%]  relative lg:pb-[1%] md:pt-[5%]"
+                    className="left-[122%] w-[43%] fixed-img-size handshake-img  relative lg:pb-[1%] lg:pt-[6%] md:pt-[5%]"
                     src="/img/handshake2.png"
                     alt=""
                   />
@@ -252,12 +255,15 @@ export default function Product() {
         </section>
 
         <section className="bg-lightgray md:py-[100px] py-[50px] lg:py-[150px] 4xl:py-[250px]">
-          <div className="flex bg-primary  w-full lg:pt-[7%] lg:pb-[7%] md:pt-[5%] md:pb-[5%] py-[150px] 4xl:py-[150px] text-white px-5 res-container-parent">
+          <div
+            style={{ backgroundColor: "#0976b7" }}
+            className="flex  w-full lg:pt-[7%] lg:pb-[7%] md:pt-[5%] md:pb-[5%] py-[150px] 4xl:py-[150px] text-white px-5 res-container-parent"
+          >
             <div className="container res-container">
               <div className="flex items-center md:flex-row flex-col  bluegreen-parent">
                 <div className="md:w-1/2 w-full flex justify-center absolute handshake-div">
                   <img
-                    className=" relative w-[43%] pt-[5%] handshake-img"
+                    className=" relative fixed-img-size w-[43%] pt-[5%] handshake-img handshake-img-2"
                     src="/img/bluegreen2.png"
                     alt=""
                   />
@@ -298,7 +304,10 @@ export default function Product() {
         </section>
 
         <section className="bg-lightgray md:py-[100px] py-[50px] lg:py-[150px] 4xl:py-[250px]">
-          <div className="flex bg-primary  w-full md:pt-[1%] md:pb-[1%] lg:pt-[5%] lg:pb-[5%] py-[150px] 4xl:py-[170px] text-white px-5 res-container-parent">
+          <div
+            style={{ backgroundColor: "#0976b7" }}
+            className="flex w-full md:pt-[1%] md:pb-[1%] lg:pt-[5%] lg:pb-[5%] py-[150px] 4xl:py-[170px] text-white px-5 res-container-parent"
+          >
             <div className="container res-container">
               <div className="flex items-center md:flex-row flex-col download-parent">
                 <div className="max-w-[600px] 4xl:max-w-[800px] flex flex-col  space-y-6 md:w-1/2 w-full">
@@ -330,7 +339,7 @@ export default function Product() {
                 </div>
                 <div className="md:w-1/2 w-full flex justify-center handshake-div absolute">
                   <img
-                    className="left-[90%] handshake2-img  w-[54%] relative lg:pb-[1%] md:pt-[5%]"
+                    className="left-[90%] handshake-img-3  handshake2-img  w-[54%] relative lg:pb-[1%] md:pt-[5%]"
                     src="/img/res-product.png"
                     alt=""
                   />
