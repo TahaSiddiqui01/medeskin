@@ -244,7 +244,7 @@ export default function Product() {
                 </div>
                 <div className="md:w-1/2 w-full  justify-center absolute  handshake-div">
                   <img
-                    className="left-[122%] w-[43%] fixed-img-size handshake-img  relative lg:pb-[1%] lg:pt-[6%] md:pt-[5%]"
+                    className="left-[122%] mar-a w-[43%] fixed-img-size handshake-img  relative lg:pb-[1%] lg:pt-[6%] md:pt-[5%]"
                     src="/img/handshake2.png"
                     alt=""
                   />
@@ -263,7 +263,7 @@ export default function Product() {
               <div className="flex items-center md:flex-row flex-col  bluegreen-parent">
                 <div className="md:w-1/2 w-full flex justify-center absolute handshake-div">
                   <img
-                    className=" relative fixed-img-size w-[43%] pt-[5%] handshake-img handshake-img-2"
+                    className="mar-b relative fixed-img-size w-[43%] pt-[5%] handshake-img  handshake-img-2"
                     src="/img/bluegreen2.png"
                     alt=""
                   />
@@ -339,7 +339,7 @@ export default function Product() {
                 </div>
                 <div className="md:w-1/2 w-full flex justify-center handshake-div absolute">
                   <img
-                    className="left-[90%] handshake-img-3  handshake2-img  w-[54%] relative lg:pb-[1%] md:pt-[5%]"
+                    className="left-[90%] mar-c handshake-img-3  handshake2-img  w-[54%] relative lg:pb-[1%] md:pt-[5%]"
                     src="/img/res-product.png"
                     alt=""
                   />
