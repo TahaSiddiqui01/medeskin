@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .mycenter {
+    @apply flex items-center justify-center;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+}
