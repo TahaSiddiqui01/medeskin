@@ -1,0 +1,16 @@
+Hi yes, was just going through it.
+
+TODO: The colours on the navigation bar and the social media links at the bottom are still the old blue tone instead of the one provided in the brand design   ==========> DONE
+
+TODO: The logo also has some strange artifact on the bottom, I've attached the actual icon here so you can replace it to one without the discolouration  ===========> DONE
+
+TODO: The text "Your Skin aid on the homepage..." is much larger than any other piece of text, it needs to match the font size for headers throughout the website.
+
+TODO: The spacing is still an issue (on the desktop version). I'm now viewing on a 1440p screen, and the things seem broken. See attached image(s).  ============> DONE
+
+TODO: The links for the Twitter and LinkedIn are broken. The URL for the 2 are:
+
+Twitter: https://twitter.com/@medeskinai
+LinkedIn: https://www.linkedin.com/company/medeskin-ai   =============> DONE
+
+On the mobile front, it seems to be okay/better. One small note: The ethics page isn't lined up properly on the mobile view, the "Law Compliance" which I would like renamed to "Compliance" is off center

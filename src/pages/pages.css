@@ -1,0 +1,506 @@
+.form-input {
+  border-bottom: 1px solid #c4c4c4 !important;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.res-hide {
+  display: none;
+}
+
+.handshake-img-2 {
+  margin-right: 33rem;
+}
+
+.handshake-img-3 {
+  left: 94%;
+}
+
+.fixed-img-size {
+  width: 350px;
+}
+
+.mar-c {
+  width: 43%;
+}
+
+.ethics-image {
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1600px) {
+  .fixed-img-size {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .fixed-img-size {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .fixed-img-size {
+    width: 250px;
+  }
+
+  .handshake-img-2 {
+    margin-right: 29rem;
+  }
+
+  .partner-info-heading {
+    font-size: 30px;
+  }
+
+  .partner-info-sub-heading {
+    font-size: 18px;
+  }
+
+  .partner-info-heading2 {
+    font-size: 26px;
+  }
+
+  .partner-info-sub-heading2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1056px) {
+  .full-width {
+    width: 100%;
+  }
+
+  .pixabay-img {
+    margin: 0px 30px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .handshake-img-2 {
+    margin: 30px 0px;
+  }
+
+  .res-top-mar {
+    margin-top: 11rem;
+  }
+
+  .justify-socials {
+    justify-content: center !important;
+  }
+
+  .mar-a {
+  }
+
+  .mar-b {
+    margin: 0px;
+    margin-bottom: 60px;
+  }
+
+  .mar-c {
+    width: 372px;
+    margin-bottom: 0px;
+  }
+
+  .constant-margin {
+    margin: 20px 0px !important;
+  }
+
+  .ethics-card-2 {
+    flex-direction: column !important;
+  }
+
+  .flex-wrap-md {
+    flex-wrap: wrap;
+  }
+
+  .fixed-img-size {
+    width: 350px !important;
+  }
+
+  .handshake-img {
+    position: static !important;
+    width: 250px !important;
+    min-width: 250px !important;
+  }
+  .handshake2-img {
+    position: static !important;
+    width: 385px;
+    min-width: 270px !important;
+  }
+
+  .handshake-div {
+    position: static !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bluegreen-parent {
+    flex-direction: column !important;
+  }
+
+  .bluegreen-div {
+    margin: 38px 4px !important;
+  }
+
+  .download-parent {
+    flex-direction: column-reverse !important;
+    gap: 100px;
+  }
+
+  .download-box {
+    justify-content: center;
+  }
+
+  .footer-parent {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .mc_embed_signup {
+    margin: auto !important;
+  }
+
+  .res-top-mar-2 {
+    margin-top: 15rem !important;
+  }
+
+  .ethics-image {
+    justify-content: center;
+  }
+
+  .ethics-image {
+    width: 100%;
+  }
+
+  .ethics-card {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pixabay-img {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ethics-card-2 {
+    flex-direction: column-reverse !important;
+  }
+
+  .container {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .res-top-mar {
+    margin-top: 13rem !important;
+  }
+
+  .responsive-position {
+    position: absolute !important;
+    top: 40% !important;
+  }
+
+  .responsive-card-heading {
+    font-size: 40px;
+  }
+
+  .pixabay-img{
+    margin: 8px 3px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .negative-margin {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .android-download {
+    width: 120px;
+    margin: 12px !important;
+  }
+
+  .res-account {
+    display: none !important;
+  }
+
+  .res-scroll {
+    display: none !important;
+  }
+
+  .res-sidebar {
+    display: none;
+  }
+
+  .res-hide {
+    display: block;
+  }
+
+  .banner-blog {
+    display: block;
+  }
+
+  .blog-category-nav {
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+  }
+
+  .bg-lightgray {
+    /* --tw-bg-opacity: 1; */
+    background-color: white !important;
+    border-right: none !important ;
+  }
+  .icon_div {
+    display: none !important;
+  }
+  .main_social {
+    display: none !important;
+  }
+  .social_text {
+    display: none;
+  }
+  .res-logo {
+    margin: 1rem 1.5rem !important;
+  }
+
+  .res-anchor {
+    background-color: transparent !important;
+    margin-top: 1rem !important;
+  }
+
+  .res-margin {
+    margin-top: 6rem !important;
+  }
+
+  .res-top-mar-2 {
+    margin-top: 22rem !important;
+  }
+
+  .responsive-position {
+    position: absolute !important;
+    top: 32% !important;
+  }
+
+  .responsive-card-heading {
+    font-size: 28px;
+  }
+
+  .login-btn2 {
+    padding-top: 28px !important;
+  }
+
+  .responsive-gap {
+    gap: 44px !important;
+  }
+  .responsive-gap3 {
+    gap: 60px !important;
+  }
+
+  .responsive-margin {
+    margin-bottom: 18px !important;
+  }
+
+  .footer-text {
+    text-align: center;
+  }
+
+  .footer-logo {
+    margin: auto !important;
+  }
+
+  .partner-info-heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer-navigation {
+    padding: 0px;
+  }
+
+  .res-container {
+    margin: 0px;
+    text-align: center;
+  }
+
+  .res-container-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skin-care {
+    display: block !important;
+  }
+  .blog-last-div {
+    padding: 0px !important;
+  }
+
+  .skin-care-tag {
+    color: #0064aa;
+    font-size: 12px;
+    margin: 1.5rem 0px;
+    font-weight: bold;
+  }
+  .skin-care-heading {
+    color: black;
+    font-size: 18px;
+    margin: 1.5rem 0px;
+    font-weight: bold;
+  }
+  .skin-care-detail {
+    font-weight: 400;
+    margin: 1.5rem 0px;
+  }
+  .partners {
+    justify-content: center;
+  }
+
+  .partner-info-heading {
+    font-size: 22px;
+  }
+
+  .partner-info-heading2 {
+    font-size: 20px;
+  }
+
+  #mc_embed_signup {
+    margin: auto !important;
+  }
+
+  .parent-home-div {
+    display: none !important;
+  }
+
+  .blog-category-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .blog-category-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 160px;
+    /* justify-self: center; */
+    align-self: center;
+    justify-items: center;
+    gap: 10px;
+    margin: 0px !important;
+  }
+
+  .blog-category-card-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .ethics-card {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column-reverse;
+  }
+
+  .ethics-card img {
+    margin: 12px 2px;
+  }
+
+  .store-img {
+    margin: 8px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 430px) {
+  .partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .partners img {
+    margin: 0px !important;
+  }
+
+  .mobile-nav {
+    display: block !important;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  /* 
+  .res-waste {
+    display: none;
+  } */
+
+  .res-height {
+    /* height: 0px !important; */
+  }
+
+  .responsive-logo-pos{
+    position: static !important;
+  }
+
+  .res-sidediv{
+    position: absolute;
+  }
+
+  .res-blog-logo{
+    width: 110px !important;
+    margin: 1rem 5rem !important;
+  }
+
+  .res_navigation_btn{
+    background-color: rgb(0 100 170 / var(--tw-bg-opacity));
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .vs-btn {
+    width: 100%;
+    margin: 8px;
+    box-sizing: border-box;
+  }
+  .blog-category-parent {
+    gap: 10px;
+  }
+  .blog-category-card {
+    padding: 4px !important;
+  }
+
+  .fixed-img-size {
+    width: 220px !important;
+    min-width: 193px !important;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .toggle-menu {
+    left: -120%;
+  }
+}

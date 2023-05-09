@@ -1,0 +1,43 @@
+.mobile-sidebar {
+  height: 80px !important;
+  display: block;
+}
+
+@media screen and (max-width: 430px) {
+  .logo-btn {
+    width: 160px;
+    margin-top: 2px !important;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .login-btn {
+    font-size: 12px;
+  }
+
+  .logo-btn {
+    width: 130px;
+    margin-top: 8px !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .login-btn {
+    font-size: 10px;
+  }
+
+  .logo-btn {
+    width: 110px;
+    margin-top: 13px !important;
+  }
+}
+
+/* @media screen and (max-width: 650px) {
+  .swiper {
+    height: 383px !important;
+  }
+
+  .res-banner {
+    object-fit: unset !important;
+  }
+} */
